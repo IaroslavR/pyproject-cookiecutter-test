@@ -1,0 +1,9 @@
+/.idea/
+/dist/
+.pytest_cache/
+*.egg-info/
+__pycache__/
+/docs/_build/
+/.coverage
+.mypy_cache/
+.nox/
