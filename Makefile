@@ -12,7 +12,7 @@ install:  ## Install package deps locally
 build:  ## Build package
 	poetry build
 
-test:  ## Run tests
+tests:  ## Run tests
 	poetry run pytest
 
 

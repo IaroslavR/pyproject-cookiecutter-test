@@ -15,7 +15,7 @@ locations = "src", "tests"
 def tests(session: Session) -> None:
     """Run the test suite."""
     session.run("make", "install", external=True)
-    session.run("make", "test", external=True)
+    session.run("make", "tests", external=True)
 
 
 @nox.session(python="3.7")
